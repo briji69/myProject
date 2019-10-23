@@ -1,0 +1,45 @@
+package com.capgemini.busscheduling.test;
+
+
+import org.junit.jupiter.api.Test;
+
+import com.capgemini.busschedulingjdbc.dao.AdminDAOImplementation;
+import com.capgemini.busschedulingjdbc.dao.CommonDAOImplementation;
+
+import junit.framework.TestCase;
+
+public class TestCollections extends TestCase  {
+
+	AdminDAOImplementation admin = new AdminDAOImplementation();
+	CommonDAOImplementation common = new  CommonDAOImplementation();
+	
+	
+	@Test
+	public void testdeletePass() {
+	
+		
+		boolean result = admin.deleteUser(303);
+		assertEquals(true, result);
+	}
+	
+	@Test
+	public void testdeleteFail() {
+			
+			boolean result = admin.deleteUser(301);
+			assertEquals(false, result);
+		}
+
+	@Test
+	public void testloginPass() {
+			
+		boolean result = common.login(303, "navi");
+		assertEquals(true, result);
+		}
+
+	@Test
+	public void testloginFail() {
+			
+		boolean result = common.login(303, "navi");
+			assertEquals(false, result);
+		}
+}

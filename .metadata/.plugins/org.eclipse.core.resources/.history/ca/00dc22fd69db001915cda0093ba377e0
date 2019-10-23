@@ -1,0 +1,20 @@
+package com.capgemini.busscheduling.service;
+
+import java.util.List;
+
+import com.capgemini.busscheduling.beans.Feedback;
+import com.capgemini.busscheduling.beans.Login;
+
+public interface AdminServ {
+
+	boolean addLogin(Login user);
+	Login login(int id, String password);
+	boolean deleteOwner(int id);
+	Login updateCheckOwner(int id);
+	boolean updateLogin(Login ownerLogin);
+	List<Login> displayOwners();
+	List<Login> displayCustomers();
+	List<Feedback> displayFeedbacks();
+	
+	Login searchLogin(int id);
+}

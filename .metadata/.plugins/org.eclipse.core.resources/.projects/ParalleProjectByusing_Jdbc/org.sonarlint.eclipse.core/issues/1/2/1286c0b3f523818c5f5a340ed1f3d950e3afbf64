@@ -1,0 +1,18 @@
+
+Xsquid:S1148B"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÈSRMINORZVULNERABILITY
+squid:S2068a"V'password' detected in this expression, review this potentially hard-coded credential.(¸ĞñûÿÿÿÿHÉSRBLOCKERZVULNERABILITY
+Xsquid:S1148-"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÊSRMINORZVULNERABILITY
+fsquid:S1854c"9Remove this useless assignment to local variable "users".(äïüñHËSRMAJORZ
+CODE_SMELL
+Xsquid:S1168D"+Return an empty collection instead of null.(¥¹ïHÌSRMAJORZ
+CODE_SMELL
+Wsquid:S1481c"*Remove this unused "users" local variable.(äïüñHÍSRMINORZ
+CODE_SMELL
+Xsquid:S1148Z"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÎSRMINORZVULNERABILITY
+Xsquid:S1148m"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÏSRMINORZVULNERABILITY
+‹squid:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(·„Ö·üÿÿÿÿHĞSRMINORZ
+CODE_SMELL
+esquid:UselessImportCheck"+Remove this unused import 'java.util.Date'.(¸…¼üHÑSRMINORZ
+CODE_SMELL
+Xsquid:S1168/"+Return an empty collection instead of null.(¥¹ïHÒSRMAJORZ
+CODE_SMELL

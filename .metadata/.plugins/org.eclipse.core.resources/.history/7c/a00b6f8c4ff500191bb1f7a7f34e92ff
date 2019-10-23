@@ -1,0 +1,30 @@
+package com.capgemini.busschedulingcollections.beans;
+
+public class Booking {
+	private int bookingId;
+	private int busNo;
+	private int seatsBooked;
+	
+	//setters and getters
+	public int getBusNo() {
+		return busNo;
+	}
+	public void setBusNo(int busNo) {
+		this.busNo = busNo;
+	}
+	
+	public int getBookingId() {
+		return bookingId;
+	}
+	public void setBookingId(int bookingId) {
+		this.bookingId = bookingId;
+	}
+	public int getSeatsBooked() {
+		return seatsBooked;
+	}
+	public void setSeatsBooked(int seatsBooked) {
+		this.seatsBooked = seatsBooked;
+	}
+	
+	
+}//end class

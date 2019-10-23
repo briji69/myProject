@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\Users\Anita\Desktop\briji final\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1498650820.index
+\ParallelProjectByusing_SpringRest\src\main\resources
+C:\Users\Anita\Desktop\briji final\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4093332865.index
+\ParallelProjectByusing_SpringMVC\src\main\resources
+C:\Users\Anita\Desktop\briji final\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\813418512.index
+\ParallelProjectByusing_SpringMVC\src\main\java
+C:\Users\Anita\Desktop\briji final\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1598365195.index
+\ParallelProjectByusing_SpringRest\src\main\java

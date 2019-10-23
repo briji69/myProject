@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.Driver"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
+<fullyQualifiedTypeName name="com.capgemini.busbookingsystem.dao.AdminDAOImplementation"/>
+<fullyQualifiedTypeName name="com.capgemini.busbookingsystem.dao.BusBookingDAOImplementation"/>
+<fullyQualifiedTypeName name="com.capgemini.busbookingsystem.dao.UserDAO"/>
+<fullyQualifiedTypeName name="com.capgemini.busbookingsystem.dao.UserDAOImplementation"/>
+<fullyQualifiedTypeName name="com.capgemini.busschedulingjdbc.dao.AdminDAOImplementation"/>
+<fullyQualifiedTypeName name="com.capgemini.busschedulingjdbc.dao.CommonDAOImplementation"/>
+<fullyQualifiedTypeName name="com.capgemini.busschedulingjdbc.dao.CustomerDAOImplementation"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnore"/>
+<fullyQualifiedTypeName name="org.w3c.dom.UserDataHandler"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

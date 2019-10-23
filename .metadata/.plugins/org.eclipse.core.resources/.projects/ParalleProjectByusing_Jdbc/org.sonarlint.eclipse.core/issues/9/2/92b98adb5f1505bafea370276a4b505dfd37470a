@@ -1,0 +1,413 @@
+
+e
+squid:S106°"9Replace this use of System.out or System.err by a logger.(äñ°|HƒSRMAJORZ
+CODE_SMELL
+f
+squid:S106á"9Replace this use of System.out or System.err by a logger.(€ŒØH”RRMAJORZ
+CODE_SMELL
+f
+squid:S106×"9Replace this use of System.out or System.err by a logger.(¼Ğ¹©H¥RRMAJORZ
+CODE_SMELL
+f
+squid:S106İ"9Replace this use of System.out or System.err by a logger.(””·£H¢SRMAJORZ
+CODE_SMELL
+e
+squid:S106h"9Replace this use of System.out or System.err by a logger.(Üí³íHŞRRMAJORZ
+CODE_SMELL
+k
+squid:S106³"9Replace this use of System.out or System.err by a logger.(ã“¬©ıÿÿÿÿH‡SRMAJORZ
+CODE_SMELL
+f
+squid:S106£"9Replace this use of System.out or System.err by a logger.(ÆÄÀçH›SRMAJORZ
+CODE_SMELL
+f
+squid:S106¡"9Replace this use of System.out or System.err by a logger.(¯×«İH£SRMAJORZ
+CODE_SMELL
+f
+squid:S106í"9Replace this use of System.out or System.err by a logger.(¦ÅôÊHĞRRMAJORZ
+CODE_SMELL
+Xsquid:S1148{"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHˆSRMINORZVULNERABILITY
+e
+squid:S1063"9Replace this use of System.out or System.err by a logger.(•éõ«HóRRMAJORZ
+CODE_SMELL
+k
+squid:S106®"9Replace this use of System.out or System.err by a logger.(şÒãûÿÿÿÿHŒSRMAJORZ
+CODE_SMELL
+e
+squid:S106·"9Replace this use of System.out or System.err by a logger.(“×¶H”SRMAJORZ
+CODE_SMELL
+bsquid:EmptyStatementUsageCheckŞ"Remove this empty statement.(Åñ­õşÿÿÿÿHŸRRMINORZ
+CODE_SMELL
+k
+squid:S106Å"9Replace this use of System.out or System.err by a logger.(á®‚‰ùÿÿÿÿHäRRMAJORZ
+CODE_SMELL
+f
+squid:S106’"9Replace this use of System.out or System.err by a logger.(€ŒØH­RRMAJORZ
+CODE_SMELL
+bsquid:EmptyStatementUsageCheckÓ"Remove this empty statement.(Åñ­õşÿÿÿÿHÕRRMINORZ
+CODE_SMELL
+Ysquid:S1148¡"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHïRRMINORZVULNERABILITY
+j
+squid:S106W"9Replace this use of System.out or System.err by a logger.(•åŠ½øÿÿÿÿHèRRMAJORZ
+CODE_SMELL
+f
+squid:S106û"9Replace this use of System.out or System.err by a logger.(€ŒØHÀRRMAJORZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(—æá‚ıÿÿÿÿHÑRRMAJORZ
+CODE_SMELL
+f
+squid:S106å"9Replace this use of System.out or System.err by a logger.(öçúŞHRRMAJORZ
+CODE_SMELL
+f
+squid:S106Ë"9Replace this use of System.out or System.err by a logger.(€ŒØHåRRMAJORZ
+CODE_SMELL
+k
+squid:S106°"9Replace this use of System.out or System.err by a logger.(á®‚‰ùÿÿÿÿH¨RRMAJORZ
+CODE_SMELL
+™squid:S1192*"jDefine a constant instead of duplicating this literal "*****************************************" 3 times.(Ê¼†0H˜SRCRITICALZ
+CODE_SMELL
+f
+squid:S106â"9Replace this use of System.out or System.err by a logger.(ÆÄÀçHáRRMAJORZ
+CODE_SMELL
+ƒsquid:S3776š"RRefactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.(‰í£ñHSRCRITICALZ
+CODE_SMELL
+e
+squid:S106V"9Replace this use of System.out or System.err by a logger.(ÖåİŒH’RRMAJORZ
+CODE_SMELL
+k
+squid:S106ª"9Replace this use of System.out or System.err by a logger.(ÏÄ¥‚úÿÿÿÿHöRRMAJORZ
+CODE_SMELL
+f
+squid:S106±"9Replace this use of System.out or System.err by a logger.(Ü—ÀíHŸSRMAJORZ
+CODE_SMELL
+bsquid:EmptyStatementUsageChecké"Remove this empty statement.(Åñ­õşÿÿÿÿHÖRRMINORZ
+CODE_SMELL
+k
+squid:S106™"9Replace this use of System.out or System.err by a logger.(Ìğø®úÿÿÿÿH‰SRMAJORZ
+CODE_SMELL
+j
+squid:S1060"9Replace this use of System.out or System.err by a logger.(’ÒôûùÿÿÿÿHòRRMAJORZ
+CODE_SMELL
+f
+squid:S106œ"9Replace this use of System.out or System.err by a logger.(Ü—ÀíHÇRRMAJORZ
+CODE_SMELL
+e
+squid:S106û"9Replace this use of System.out or System.err by a logger.(‰ÿÅH÷RRMAJORZ
+CODE_SMELL
+f
+squid:S106…"9Replace this use of System.out or System.err by a logger.(ÊùßÌHæRRMAJORZ
+CODE_SMELL
+f
+squid:S106©"9Replace this use of System.out or System.err by a logger.(Ò¼‡HîRRMAJORZ
+CODE_SMELL
+bsquid:EmptyStatementUsageCheckÓ"Remove this empty statement.(Åñ­õşÿÿÿÿHRRMINORZ
+CODE_SMELL
+zsquid:S1192“"JDefine a constant instead of duplicating this literal "Failed!!!" 3 times.(äñ°|H†SRCRITICALZ
+CODE_SMELL
+e
+squid:S106E"9Replace this use of System.out or System.err by a logger.(È½ó¬HúRRMAJORZ
+CODE_SMELL
+f
+squid:S106œ"9Replace this use of System.out or System.err by a logger.(€ŒØH¡SRMAJORZ
+CODE_SMELL
+f
+squid:S106¹"9Replace this use of System.out or System.err by a logger.(’Ì¡èHâRRMAJORZ
+CODE_SMELL
+f
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ü—ÀíHüRRMAJORZ
+CODE_SMELL
+j
+squid:S106i"9Replace this use of System.out or System.err by a logger.(‰«£†úÿÿÿÿH¯RRMAJORZ
+CODE_SMELL
+e
+squid:S106÷"9Replace this use of System.out or System.err by a logger.(“×¶H¶RRMAJORZ
+CODE_SMELL
+f
+squid:S106¶"9Replace this use of System.out or System.err by a logger.(€ŒØHÚRRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(“×¶HşRRMAJORZ
+CODE_SMELL
+e
+squid:S106‡"9Replace this use of System.out or System.err by a logger.(“×¶HšRRMAJORZ
+CODE_SMELL
+d
+squid:S106D"9Replace this use of System.out or System.err by a logger.(õı…WHSRMAJORZ
+CODE_SMELL
+f
+squid:S106Ï"9Replace this use of System.out or System.err by a logger.(öçúŞHÊRRMAJORZ
+CODE_SMELL
+~squid:S1192‘"HDefine a constant instead of duplicating this literal "Success" 3 times.(şÒãûÿÿÿÿH¬RRCRITICALZ
+CODE_SMELL
+k
+squid:S106¶"9Replace this use of System.out or System.err by a logger.(Ìğø®úÿÿÿÿH„SRMAJORZ
+CODE_SMELL
+k
+squid:S106¦"9Replace this use of System.out or System.err by a logger.(‰”¸ßùÿÿÿÿHØRRMAJORZ
+CODE_SMELL
+ƒsquid:S3776¯"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(¿ƒßÔHSRCRITICALZ
+CODE_SMELL
+~squid:S1192"MDefine a constant instead of duplicating this literal "Enter bus Id" 4 times.(Ü—ÀíH¹RRCRITICALZ
+CODE_SMELL
+k
+squid:S106Á"9Replace this use of System.out or System.err by a logger.(—æá‚ıÿÿÿÿH SRMAJORZ
+CODE_SMELL
+e
+squid:S106T"9Replace this use of System.out or System.err by a logger.(šöÚåH¤RRMAJORZ
+CODE_SMELL
+f
+squid:S106š"9Replace this use of System.out or System.err by a logger.(ÉÄµ¡HûRRMAJORZ
+CODE_SMELL
+k
+squid:S106Ú"9Replace this use of System.out or System.err by a logger.(Êâ—ÆüÿÿÿÿH‹SRMAJORZ
+CODE_SMELL
+f
+squid:S106Á"9Replace this use of System.out or System.err by a logger.(ÙÍÎH—RRMAJORZ
+CODE_SMELL
+f
+squid:S106Ë"9Replace this use of System.out or System.err by a logger.(€ŒØHRRMAJORZ
+CODE_SMELL
+k
+squid:S106Œ"9Replace this use of System.out or System.err by a logger.(øóŞäşÿÿÿÿHßRRMAJORZ
+CODE_SMELL
+k
+squid:S106¿"9Replace this use of System.out or System.err by a logger.(ÏÄ¥‚úÿÿÿÿHÛRRMAJORZ
+CODE_SMELL
+f
+squid:S106Í"9Replace this use of System.out or System.err by a logger.(’Ì¡èH³RRMAJORZ
+CODE_SMELL
+e
+squid:S106ì"9Replace this use of System.out or System.err by a logger.(“×¶H‘RRMAJORZ
+CODE_SMELL
+f
+squid:S106Ú"9Replace this use of System.out or System.err by a logger.(¼õªËHÓRRMAJORZ
+CODE_SMELL
+j
+squid:S106/"9Replace this use of System.out or System.err by a logger.(¤ï°€úÿÿÿÿHğRRMAJORZ
+CODE_SMELL
+f
+squid:S106Å"9Replace this use of System.out or System.err by a logger.(¼õªËHÁRRMAJORZ
+CODE_SMELL
+ƒsquid:S3776´"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(ÒíÉÍHêRRCRITICALZ
+CODE_SMELL
+d
+squid:S1062"9Replace this use of System.out or System.err by a logger.(Ê¼†0HãRRMAJORZ
+CODE_SMELL
+e
+squid:S106ù"9Replace this use of System.out or System.err by a logger.(äñ°|H“SRMAJORZ
+CODE_SMELL
+k
+squid:S106ğ"9Replace this use of System.out or System.err by a logger.(Êâ—ÆüÿÿÿÿHªRRMAJORZ
+CODE_SMELL
+e
+squid:S106G"9Replace this use of System.out or System.err by a logger.(•éõ«HÅRRMAJORZ
+CODE_SMELL
+e
+squid:S106Ö"9Replace this use of System.out or System.err by a logger.(“×¶H©RRMAJORZ
+CODE_SMELL
+squid:S1192’"\Define a constant instead of duplicating this literal "This field cannot be empty" 13 times.(€ŒØHùRRCRITICALZ
+CODE_SMELL
+d
+squid:S106*"9Replace this use of System.out or System.err by a logger.(Ê¼†0HµRRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(“×¶HœSRMAJORZ
+CODE_SMELL
+k
+squid:S106ç"9Replace this use of System.out or System.err by a logger.(—æá‚ıÿÿÿÿHÎRRMAJORZ
+CODE_SMELL
+e
+squid:S106¼"9Replace this use of System.out or System.err by a logger.(“×¶H²RRMAJORZ
+CODE_SMELL
+‚squid:S3776("RRefactor this method to reduce its Cognitive Complexity from 55 to the 15 allowed.(Çµí‘H•SRCRITICALZ
+CODE_SMELL
+ˆsquid:S1192‡"XDefine a constant instead of duplicating this literal "Enter a valid number :" 14 times.(“×¶H§RRCRITICALZ
+CODE_SMELL
+k
+squid:S106ò"9Replace this use of System.out or System.err by a logger.(ÏÄ¥‚úÿÿÿÿH RRMAJORZ
+CODE_SMELL
+k
+squid:S106‡"9Replace this use of System.out or System.err by a logger.(—æá‚ıÿÿÿÿH¼RRMAJORZ
+CODE_SMELL
+f
+squid:S106è"9Replace this use of System.out or System.err by a logger.(æ€–H˜RRMAJORZ
+CODE_SMELL
+‡squid:S1192–"VDefine a constant instead of duplicating this literal "Enter bus Destination" 3 times.(¼õªËHñRRCRITICALZ
+CODE_SMELL
+j
+squid:S106+"9Replace this use of System.out or System.err by a logger.(Ô•“™şÿÿÿÿHœRRMAJORZ
+CODE_SMELL
+wsquid:S2147~"ECombine this catch with the one at line 122, which has the same body.(’Å„—ÿÿÿÿÿH‚SRMINORZ
+CODE_SMELL
+e
+squid:S106k"9Replace this use of System.out or System.err by a logger.(•éõ«H™RRMAJORZ
+CODE_SMELL
+k
+squid:S106Ç"9Replace this use of System.out or System.err by a logger.(öìÆˆúÿÿÿÿHÆRRMAJORZ
+CODE_SMELL
+f
+squid:S106¯"9Replace this use of System.out or System.err by a logger.(’Ì¡èHSRMAJORZ
+CODE_SMELL
+f
+squid:S106¥"9Replace this use of System.out or System.err by a logger.(€ŒØHšSRMAJORZ
+CODE_SMELL
+f
+squid:S106Á"9Replace this use of System.out or System.err by a logger.(€ŒØH«RRMAJORZ
+CODE_SMELL
+d
+squid:S106."9Replace this use of System.out or System.err by a logger.(Ê¼†0HÜRRMAJORZ
+CODE_SMELL
+k
+squid:S106Ì"9Replace this use of System.out or System.err by a logger.(Åı°ÌüÿÿÿÿH…SRMAJORZ
+CODE_SMELL
+‰squid:S1192¯"XDefine a constant instead of duplicating this literal "Enter a valid ticket  :" 5 times.(’Ì¡èHSRCRITICALZ
+CODE_SMELL
+f
+squid:S106©"9Replace this use of System.out or System.err by a logger.(æ€–HÉRRMAJORZ
+CODE_SMELL
+wsquid:S2147|"ECombine this catch with the one at line 122, which has the same body.(ªğ³ııÿÿÿÿH™SRMINORZ
+CODE_SMELL
+e
+squid:S106“"9Replace this use of System.out or System.err by a logger.(äñ°|HºRRMAJORZ
+CODE_SMELL
+e
+squid:S106–"9Replace this use of System.out or System.err by a logger.(“×¶HõRRMAJORZ
+CODE_SMELL
+k
+squid:S106»"9Replace this use of System.out or System.err by a logger.(‰”¸ßùÿÿÿÿHRRMAJORZ
+CODE_SMELL
+f
+squid:S106‘"9Replace this use of System.out or System.err by a logger.(äÜõ›H¡RRMAJORZ
+CODE_SMELL
+bsquid:EmptyStatementUsageCheck¾"Remove this empty statement.(Åñ­õşÿÿÿÿHSRMINORZ
+CODE_SMELL
+Xsquid:S1148;"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHİRRMINORZVULNERABILITY
+f
+squid:S106ÿ"9Replace this use of System.out or System.err by a logger.(Ñòš—H±RRMAJORZ
+CODE_SMELL
+k
+squid:S106‘"9Replace this use of System.out or System.err by a logger.(şÒãûÿÿÿÿH“RRMAJORZ
+CODE_SMELL
+j
+squid:S1061"9Replace this use of System.out or System.err by a logger.(ûÿì‘úÿÿÿÿH¦RRMAJORZ
+CODE_SMELL
+i"squid:SwitchLastCaseIsDefaultCheckA""Add a default case to this switch.(ÜŸ•HÌRRCRITICALZ
+CODE_SMELL
+k
+squid:S106Ï"9Replace this use of System.out or System.err by a logger.(øóŞäşÿÿÿÿH•RRMAJORZ
+CODE_SMELL
+k
+squid:S106Û"9Replace this use of System.out or System.err by a logger.(ÖÛøùÿÿÿÿHRRMAJORZ
+CODE_SMELL
+f
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ü—ÀíHìRRMAJORZ
+CODE_SMELL
+‡squid:S1192‡"QDefine a constant instead of duplicating this literal "Enter your id : " 3 times.(Ìğø®úÿÿÿÿHÏRRCRITICALZ
+CODE_SMELL
+f
+squid:S106ó"9Replace this use of System.out or System.err by a logger.(ûÁ­„H¸RRMAJORZ
+CODE_SMELL
+bsquid:EmptyStatementUsageCheckô"Remove this empty statement.(Åñ­õşÿÿÿÿH—SRMINORZ
+CODE_SMELL
+f
+squid:S106Á"9Replace this use of System.out or System.err by a logger.(€ŒØH½RRMAJORZ
+CODE_SMELL
+f
+squid:S106–"9Replace this use of System.out or System.err by a logger.(¼õªËHÍRRMAJORZ
+CODE_SMELL
+k
+squid:S106‡"9Replace this use of System.out or System.err by a logger.(Ìğø®úÿÿÿÿH£RRMAJORZ
+CODE_SMELL
+e
+squid:S106F"9Replace this use of System.out or System.err by a logger.(†£ğìH€SRMAJORZ
+CODE_SMELL
+f
+squid:S106Ö"9Replace this use of System.out or System.err by a logger.(€ŒØH®RRMAJORZ
+CODE_SMELL
+k
+squid:S106º"9Replace this use of System.out or System.err by a logger.(øóŞäşÿÿÿÿH’SRMAJORZ
+CODE_SMELL
+e
+squid:S106U"9Replace this use of System.out or System.err by a logger.(ÒòßH¿RRMAJORZ
+CODE_SMELL
+f
+squid:S106ı"9Replace this use of System.out or System.err by a logger.(æŒÍ‰HëRRMAJORZ
+CODE_SMELL
+k
+squid:S106Ñ"9Replace this use of System.out or System.err by a logger.(Ã‹¿¢úÿÿÿÿHôRRMAJORZ
+CODE_SMELL
+e
+squid:S106•"9Replace this use of System.out or System.err by a logger.(“×¶HıRRMAJORZ
+CODE_SMELL
+f
+squid:S106Ò"9Replace this use of System.out or System.err by a logger.(ìïê­H×RRMAJORZ
+CODE_SMELL
+‡squid:S1192Œ"QDefine a constant instead of duplicating this literal "Enter bus Source" 3 times.(øóŞäşÿÿÿÿH–SRCRITICALZ
+CODE_SMELL
+k
+squid:S106Ç"9Replace this use of System.out or System.err by a logger.(ú·­úÿÿÿÿHŠSRMAJORZ
+CODE_SMELL
+e
+squid:S106j"9Replace this use of System.out or System.err by a logger.(Ê²•H°RRMAJORZ
+CODE_SMELL
+k
+squid:S106å"9Replace this use of System.out or System.err by a logger.(’°ÿõøÿÿÿÿH‘SRMAJORZ
+CODE_SMELL
+e
+squid:S106ä"9Replace this use of System.out or System.err by a logger.(‰ÿÅH–RRMAJORZ
+CODE_SMELL
+k
+squid:S106÷"9Replace this use of System.out or System.err by a logger.(şÒãûÿÿÿÿHéRRMAJORZ
+CODE_SMELL
+f
+squid:S106á"9Replace this use of System.out or System.err by a logger.(€ŒØH¾RRMAJORZ
+CODE_SMELL
+e
+squid:S106X"9Replace this use of System.out or System.err by a logger.(•éõ«HÄRRMAJORZ
+CODE_SMELL
+f
+squid:S106ö"9Replace this use of System.out or System.err by a logger.(’Ì¡èH›RRMAJORZ
+CODE_SMELL
+k
+squid:S106ƒ"9Replace this use of System.out or System.err by a logger.(ÿÆ•ÆùÿÿÿÿHÂRRMAJORZ
+CODE_SMELL
+d
+squid:S106g"9Replace this use of System.out or System.err by a logger.(˜™ÜEHÃRRMAJORZ
+CODE_SMELL
+e
+squid:S106à"9Replace this use of System.out or System.err by a logger.(“×¶HçRRMAJORZ
+CODE_SMELL
+f
+squid:S106×"9Replace this use of System.out or System.err by a logger.(’Ì¡èH·RRMAJORZ
+CODE_SMELL
+k
+squid:S106î"9Replace this use of System.out or System.err by a logger.(œÇ²«üÿÿÿÿH´RRMAJORZ
+CODE_SMELL
+„squid:S11923"TDefine a constant instead of duplicating this literal "Enter your choice :" 4 times.(•éõ«HËRRCRITICALZ
+CODE_SMELL
+Ysquid:S1148÷"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÙRRMINORZVULNERABILITY
+e
+squid:S106Ÿ"9Replace this use of System.out or System.err by a logger.(“×¶HÒRRMAJORZ
+CODE_SMELL
+Xsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÈRRMINORZVULNERABILITY
+Xsquid:S1148}"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHSRMINORZVULNERABILITY
+e
+squid:S106¢"9Replace this use of System.out or System.err by a logger.(“×¶HíRRMAJORZ
+CODE_SMELL
+f
+squid:S106¬"9Replace this use of System.out or System.err by a logger.(€ŒØHàRRMAJORZ
+CODE_SMELL
+}squid:S1192Á"GDefine a constant instead of duplicating this literal "Failed" 4 times.(—æá‚ıÿÿÿÿHøRRCRITICALZ
+CODE_SMELL
+f
+squid:S106ÿ"9Replace this use of System.out or System.err by a logger.(ÛòØÈH»RRMAJORZ
+CODE_SMELL
+e
+squid:S106ê"9Replace this use of System.out or System.err by a logger.(“×¶H¢RRMAJORZ
+CODE_SMELL
+bsquid:EmptyStatementUsageCheckŞ"Remove this empty statement.(±ÚšÀşÿÿÿÿHÿRRMINORZ
+CODE_SMELL
+f
+squid:S106í"9Replace this use of System.out or System.err by a logger.(éğ¬ÁHÔRRMAJORZ
+CODE_SMELL

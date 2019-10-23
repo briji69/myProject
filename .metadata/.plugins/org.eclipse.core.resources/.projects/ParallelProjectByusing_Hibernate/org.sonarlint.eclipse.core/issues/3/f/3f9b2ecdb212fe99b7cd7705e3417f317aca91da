@@ -1,0 +1,14 @@
+
+lsquid:UselessImportCheck"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿHğSRMINORZ
+CODE_SMELL
+Xsquid:S1148 "#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHñSRMINORZVULNERABILITY
+Xsquid:S1148/"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHòSRMINORZVULNERABILITY
+Xsquid:S1148E"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHóSRMINORZVULNERABILITY
+Xsquid:S1148s"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHôSRMINORZVULNERABILITY
+Ysquid:S1148•"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHõSRMINORZVULNERABILITY
+Ysquid:S1148©"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHöSRMINORZVULNERABILITY
+ksquid:S1155‡">Use isEmpty() to check whether the collection is empty or not.(Õ‹¼EH÷SRMINORZ
+CODE_SMELL
+ksquid:S1155£">Use isEmpty() to check whether the collection is empty or not.(Õ‹¼EHøSRMINORZ
+CODE_SMELL
+squid:S2068)"V'password' detected in this expression, review this potentially hard-coded credential.(åÉË®ûÿÿÿÿHùSRBLOCKERZVULNERABILITY

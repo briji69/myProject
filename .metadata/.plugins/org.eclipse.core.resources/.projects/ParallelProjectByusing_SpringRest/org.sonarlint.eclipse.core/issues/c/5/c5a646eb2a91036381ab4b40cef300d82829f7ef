@@ -1,0 +1,10 @@
+
+Xsquid:S1148/"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÇ@RMINORZVULNERABILITY
+Xsquid:S1148m"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÉ@RMINORZVULNERABILITY
+squid:S2068"V'password' detected in this expression, review this potentially hard-coded credential.(¹ëşÖøÿÿÿÿHÊ@RBLOCKERZVULNERABILITY
+bsquid:S2209"5Change this instance-reference to a static reference.(Ø±åŠHÌ@RMAJORZ
+CODE_SMELL
+Xsquid:S1148`"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÈ@RMINORZVULNERABILITY
+fsquid:S2696"6Make the enclosing method "static" or remove this set.(Ø±åŠHË@RCRITICALZ
+CODE_SMELL
+Xsquid:S1148 "#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÆ@RMINORZVULNERABILITY

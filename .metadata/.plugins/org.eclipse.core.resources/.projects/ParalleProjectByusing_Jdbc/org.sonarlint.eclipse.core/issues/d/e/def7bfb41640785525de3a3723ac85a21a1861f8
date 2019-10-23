@@ -1,0 +1,12 @@
+
+Xsquid:S1148C"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHÛSRMINORZVULNERABILITY
+Fsquid:S2119'"Save and re-use this "Random".(¼ÝÅfHÜSRCRITICALZBUG
+Xsquid:S1148="#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHÝSRMINORZVULNERABILITY
+Ysquid:S1148‚"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHÞSRMINORZVULNERABILITY
+Xsquid:S1148j"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHßSRMINORZVULNERABILITY
+Ysquid:S1148’"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHàSRMINORZVULNERABILITY
+gsquid:S1141%"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿHáSRMAJORZ
+CODE_SMELL
+j
+squid:S106@"9Replace this use of System.out or System.err by a logger.(¸™®£ûÿÿÿÿHâSRMAJORZ
+CODE_SMELL

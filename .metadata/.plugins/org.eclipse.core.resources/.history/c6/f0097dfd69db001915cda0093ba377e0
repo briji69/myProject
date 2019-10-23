@@ -1,0 +1,459 @@
+package com.capgemini.busscheduling.controller;
+
+import java.util.List;
+import java.util.Random;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.capgemini.busscheduling.beans.Availability;
+import com.capgemini.busscheduling.beans.Bus;
+import com.capgemini.busscheduling.beans.Feedback;
+import com.capgemini.busscheduling.beans.Login;
+import com.capgemini.busscheduling.beans.Ticket;
+import com.capgemini.busscheduling.service.AdminServ;
+import com.capgemini.busscheduling.service.AdminServImpl;
+import com.capgemini.busscheduling.service.CommonServ;
+import com.capgemini.busscheduling.service.CustomerServ;
+import com.capgemini.busscheduling.service.OwnerServ;
+import com.capgemini.busscheduling.utility.busResponse;
+import com.capgemini.busscheduling.utility.feedbackResponse;
+import com.capgemini.busscheduling.utility.loginResponse;
+import com.capgemini.busscheduling.utility.seatResponse;
+import com.capgemini.busscheduling.utility.ticketResponse;
+
+@RestController
+public class SignInRestController {
+
+	@Autowired
+	AdminServ serviceAdmin=new AdminServImpl();
+	
+	@Autowired
+	CustomerServ serviceCustomer;
+
+	@Autowired
+	OwnerServ serviceOwner;
+	
+	@Autowired
+	CommonServ serviceCommon;
+	
+	@GetMapping("/login")
+	@ResponseBody
+	public loginResponse login(int id,String password) {
+		
+		loginResponse response=new loginResponse();
+		Login login=serviceAdmin.login(id, password);
+		if(login!=null) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("Employee details successfully");
+			//to set all the values
+			response.setlogin(login);
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to search employee");
+		}
+		return response;
+	}//end of login
+	
+	
+	
+	@PostMapping(path="/addLogin",
+			consumes = {MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE}, produces =
+				{ MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE}
+
+			)
+	@ResponseBody
+	public loginResponse addOwnerUser(@RequestBody Login login) {
+
+		loginResponse response=new loginResponse();
+		if(serviceAdmin.addLogin(login)) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("Employee added successfully");
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to add employee");
+		}
+		return response;
+	}//end of addOwnerUser
+	
+	
+	
+	@DeleteMapping("/deleteUser/{id}")
+	@ResponseBody
+	public loginResponse deleteUser(@PathVariable(name="id") int id) {
+		//map only through some 
+		loginResponse response=new loginResponse();
+		if(serviceCustomer.deleteUser(id)) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("User deleted successfully");
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to delete employee");
+		}
+		return response;
+	}//end of deleteUser
+	
+	
+	@DeleteMapping("/deleteOwner/{id}")
+	@ResponseBody
+	public loginResponse deleteOwner(@PathVariable(name="id") int id) {
+		//map only through some 
+		loginResponse response=new loginResponse();
+		if(serviceAdmin.deleteOwner(id)) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("Owner deleted successfully");
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to delete employee");
+		}
+		return response;
+	}//end of deleteOwner
+	
+	
+	@PutMapping("/updateLogin")
+	public loginResponse updateEmployee(@RequestBody Login login) {
+
+		loginResponse response=new loginResponse();
+		
+		if(serviceAdmin.updateLogin(login)) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("Employee updated successfully");
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to add employee");
+		}
+		return response;
+	}//end of updateLogin
+	
+	
+	@GetMapping(path="/getAllUsers", 
+			produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
+	public loginResponse getAllUsers(){
+		List<Login> loginList= serviceAdmin.displayCustomers();
+		loginResponse response=new loginResponse();
+		if(loginList!=null) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("Employee details fetched successfully");
+			response.setloginList(loginList);
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to fetch employee list");
+		}
+		return response;
+	}//end of getAllUsers
+	
+	
+	
+	@GetMapping(path="/getAllOwners", 
+			produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
+	public loginResponse getAllOwners(){
+		List<Login> loginList= serviceAdmin.displayOwners();
+		loginResponse response=new loginResponse();
+		if(loginList!=null) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("Employee details fetched successfully");
+			response.setloginList(loginList);
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to fetch employee list");
+		}
+		return response;
+	}//end of getAllOwners
+	
+	
+	@GetMapping("/getUser")
+	@ResponseBody
+	public loginResponse getUser(int id) {
+		
+		loginResponse response=new loginResponse();
+		Login login=serviceCustomer.updateCheckCustomer(id);
+		if(login!=null) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("Employee details successfully");
+			//to set all the values
+			response.setlogin(login);
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to search employee");
+		}
+		return response;
+	}//end of getUser
+	
+	
+	
+	
+	@GetMapping(path="/getAllFeedbacks", 
+			produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
+	public feedbackResponse getAllFeedbacks(){
+		List<Feedback> feedbackList= serviceAdmin.displayFeedbacks();
+		feedbackResponse response=new feedbackResponse();
+		if(feedbackList!=null) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("Employee details fetched successfully");
+			response.setfeedbackList(feedbackList);
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to fetch employee list");
+		}
+		return response;
+	}//end of getAllFeedbacks
+	
+	@PostMapping(path="/addBus",
+			consumes = {MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE}, produces =
+				{ MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE}
+
+			)
+	@ResponseBody
+	public busResponse addBus(@RequestBody Bus bus) {
+
+		busResponse response=new busResponse();
+		if(serviceOwner.addBus(bus)) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("Employee added successfully");
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to add employee");
+		}
+		return response;
+	}//end of addBus
+	
+
+	@DeleteMapping("/deleteBus/{busId}")
+	@ResponseBody
+	public busResponse deleteBus(@PathVariable(name="busId") int busId) {
+		//map only through some 
+		busResponse response=new busResponse();
+		if(serviceOwner.deleteBus(busId)) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("Bus deleted successfully");
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to delete bus");
+		}
+		return response;
+	}//end of deleteBus
+	
+	
+	@PutMapping("/updateBus")
+	public busResponse updateBus(@RequestBody Bus bus) {
+
+		busResponse response=new busResponse();
+		
+		if(serviceOwner.updateBus(bus)) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("Bus updated successfully");
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to update bus record");
+		}
+		return response;
+	}//end of updateBus
+	
+	
+	@GetMapping(path="/getAllBuses", 
+			produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
+	public busResponse getAllBuses(){
+		List<Bus> busList= serviceOwner.displayBuses();
+		busResponse response=new busResponse();
+		if(busList!=null) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("Bus details fetched successfully");
+			response.setBusList(busList);
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to fetch b list");
+		}
+		return response;
+	}//end of getAllBuses
+	
+	
+	@PostMapping(path="/seatAvailable",
+			consumes = {MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE}, produces =
+				{ MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE}
+
+			)
+	@ResponseBody
+	public seatResponse addSeatAvailable(@RequestBody Availability availability) {
+
+		seatResponse response=new seatResponse();
+
+		Random random=new Random();
+		int availId=random.nextInt(500);
+		
+		Bus busData=serviceOwner.updateCheckBus(availability.getBusId());
+		availability.setAvailDate(availability.getAvailDate());
+		availability.setAvailId(availId);
+		availability.setAvailSeat(busData.getTotalSeats()-2);
+		availability.setBusId(availability.getBusId());
+		
+		if(serviceOwner.addSeat(availability)) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("Seat added successfully");
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to add feedback");
+		}
+		return response;
+	}//end of addSeat
+	
+	
+	@PostMapping(path="/bookTicket/{id}",
+			consumes = {MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE}, produces =
+				{ MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE}
+
+			)
+	@ResponseBody
+	public ticketResponse bookTicket(@RequestBody Ticket ticket, @PathVariable(name="id") int id) {
+
+		ticketResponse response=new ticketResponse();
+
+		Random random=new Random();
+		int ticketId=random.nextInt(500);
+
+		ticket.setTicketId(ticketId);
+		
+		Bus bus=serviceOwner.updateCheckBus(ticket.getBusId());
+		
+		ticket.setBusId(ticket.getBusId());
+		ticket.setId(id);
+		ticket.setSource(bus.getSource());
+		ticket.setDestination(bus.getDestination());
+		ticket.setNoOfSeats(ticket.getNoOfSeats());
+		ticket.setPrice(bus.getPrice()*ticket.getNoOfSeats());
+		ticket.setArrivalTime(bus.getArrivalTime());
+		ticket.setDepartureTime(bus.getDepartureTime());
+		ticket.setJourneyDate(ticket.getJourneyDate());
+		
+		if(serviceCommon.bookTicket(ticket)) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("Ticket booked successfully");
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to book ticket");
+		}
+		return response;
+	}//end of bookTicket
+	
+	
+	@DeleteMapping("/cancelTicket/{ticketId}/{id}")
+	@ResponseBody
+	public ticketResponse cancelTicket(@PathVariable(name="ticketId") int ticketId, @PathVariable(name="id") int id) {
+		//map only through some 
+		ticketResponse response=new ticketResponse();
+		
+		Ticket ticket=new Ticket();
+		ticket.setId(id);
+		ticket.setTicketId(ticketId);
+		
+		if(serviceCommon.cancelTicket(ticket)) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("Ticket deleted successfully");
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to cancel ticket");
+		}
+		return response;
+	}//end of cancelTicket
+	
+	@GetMapping("/getTicket")
+	@ResponseBody
+	public ticketResponse getTicket(int id) {
+		
+		ticketResponse response=new ticketResponse();
+		List<Ticket> ticketList=serviceCommon.viewTickets(id);
+		if(ticketList!=null) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("View user details successfully");
+			//to set all the values
+			response.setTicketList(ticketList);
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to view tickets");
+		}
+		return response;
+	}//end of getTicket
+	
+	
+	@GetMapping(path="/getAllTickets", 
+			produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
+	public ticketResponse getAllTickets(){
+		List<Ticket> ticketList= serviceOwner.displayTickets();
+		ticketResponse response=new ticketResponse();
+		if(ticketList!=null) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("Tickets fetched successfully");
+			response.setTicketList(ticketList);
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to fetch ticket");
+		}
+		return response;
+	}//end of getAllTickets
+	
+	
+	@PostMapping(path="/addFeedback",
+			consumes = {MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE}, produces =
+				{ MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE}
+
+			)
+	@ResponseBody
+	public feedbackResponse addFeedback(@RequestBody Feedback feedback) {
+
+		feedbackResponse response=new feedbackResponse();
+		if(serviceCustomer.addFeedback(feedback)) {
+			response.setStatusCode(201);
+			response.setMessage("Success");
+			response.setDescription("User feedback added successfully");
+		}else {
+			response.setStatusCode(401);
+			response.setMessage("Failed");
+			response.setDescription("Unable to add feedback");
+		}
+		return response;
+	}//end of addFeedback
+	
+}//end of controller

@@ -1,0 +1,12 @@
+
+†squid:UselessImportCheck"GRemove this unused import 'com.capgemini.busschedulingjdbc.beans.User'.(Òë·¶úÿÿÿÿHÓSRMINORZ
+CODE_SMELL
+Xsquid:S1148'"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÔSRMINORZVULNERABILITY
+Xsquid:S1148:"#Use a logger to log this exception.(ÂşÿâûÿÿÿÿHÕSRMINORZVULNERABILITY
+Xsquid:S1148K"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÖSRMINORZVULNERABILITY
+Xsquid:S1148^"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH×SRMINORZVULNERABILITY
+Xsquid:S1148{"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHØSRMINORZVULNERABILITY
+Xsquid:S1168}"+Return an empty collection instead of null.(¥¹ïHÙSRMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLineF"<This block of commented-out lines of code should be removed.(—ï¡°HÚSRMAJORZ
+CODE_SMELL

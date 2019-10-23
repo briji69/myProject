@@ -1,0 +1,10 @@
+
+Xsquid:S1148+"#Use a logger to log this exception.(Ä…‘Ö˝ˇˇˇˇHÌFRMINORZVULNERABILITY
+Xsquid:S1148K"#Use a logger to log this exception.(Ä…‘Ö˝ˇˇˇˇHÓFRMINORZVULNERABILITY
+Xsquid:S1148m"#Use a logger to log this exception.(Ä…‘Ö˝ˇˇˇˇHÔFRMINORZVULNERABILITY
+Ysquid:S1148î"#Use a logger to log this exception.(Ä…‘Ö˝ˇˇˇˇHFRMINORZVULNERABILITY
+jsquid:S1155_">Use isEmpty() to check whether the collection is empty or not.(’ãºEHÒFRMINORZ
+CODE_SMELL
+ksquid:S1155é">Use isEmpty() to check whether the collection is empty or not.(’ãºEHÚFRMINORZ
+CODE_SMELL
+Fsquid:S21198"Save and re-use this "Random".(º›≈fHÛFRCRITICALZBUG

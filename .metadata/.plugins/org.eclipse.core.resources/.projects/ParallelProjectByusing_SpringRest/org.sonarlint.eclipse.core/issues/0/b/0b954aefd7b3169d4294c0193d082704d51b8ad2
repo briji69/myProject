@@ -1,0 +1,12 @@
+
+Xsquid:S11485"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÿFRMINORZVULNERABILITY
+Xsquid:S1148D"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH€GRMINORZVULNERABILITY
+Xsquid:S1148S"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHGRMINORZVULNERABILITY
+ksquid:S1155%">Use isEmpty() to check whether the collection is empty or not.(ÑÌïH‚GRMINORZ
+CODE_SMELL
+†squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(…°ü´HƒGRMINORZ
+CODE_SMELL
+ksquid:S2696*"6Make the enclosing method "static" or remove this set.(àõÃ¾ùÿÿÿÿH„GRCRITICALZ
+CODE_SMELL
+gsquid:S2209*"5Change this instance-reference to a static reference.(àõÃ¾ùÿÿÿÿH…GRMAJORZ
+CODE_SMELL

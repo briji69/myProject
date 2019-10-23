@@ -1,0 +1,37 @@
+
+dsquid:S2589="7Remove this expression which always evaluates to "true"(à²˜¾H«?RMAJORZ
+CODE_SMELL
+~squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÅ2H¬?RMINORZ
+CODE_SMELL
+„squid:S00117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñæ¯şÿÿÿÿH­?RMINORZ
+CODE_SMELL
+squid:UselessImportCheck"VRemove this unused import 'com.capgemini.busbookingsystem.exceptions.GetBusException'.(­èæœH®?RMINORZ
+CODE_SMELL
+\squid:S2440"*Remove this instantiation of "CommonInfo".(óƒ•ÀùÿÿÿÿH¯?RMAJORZ
+CODE_SMELL
+[squid:S2440"/Remove this instantiation of "CommonLoginInfo".(•ó´H°?RMAJORZ
+CODE_SMELL
+bsquid:S2209"5Change this instance-reference to a static reference.(†¨İH±?RMAJORZ
+CODE_SMELL
+bsquid:S2209"5Change this instance-reference to a static reference.(ÀÌ¹ŒH²?RMAJORZ
+CODE_SMELL
+gsquid:S2209"5Change this instance-reference to a static reference.(¨±ëÒûÿÿÿÿH³?RMAJORZ
+CODE_SMELL
+bsquid:S2209"5Change this instance-reference to a static reference.(ôÅ«¨H´?RMAJORZ
+CODE_SMELL
+isquid:S1854)"7Remove this useless assignment to local variable "bus".(·§¯¦üÿÿÿÿHµ?RMAJORZ
+CODE_SMELL
+fsquid:S2864'"4Iterate over the "entrySet" instead of the "keySet".(Ï÷ŞÿÿÿÿÿH¶?RMAJORZ
+CODE_SMELL
+Fsquid:S21199"Save and re-use this "Random".(¼İÅfH·?RCRITICALZBUG
+j
+squid:S106?"9Replace this use of System.out or System.err by a logger.(ÏÄ¥‚úÿÿÿÿH¸?RMAJORZ
+CODE_SMELL
+fsquid:S2864a"4Iterate over the "entrySet" instead of the "keySet".(ÿåö¢ûÿÿÿÿH¹?RMAJORZ
+CODE_SMELL
+Zsquid:S1481)"(Remove this unused "bus" local variable.(·§¯¦üÿÿÿÿHº?RMINORZ
+CODE_SMELL
+Zsquid:S1068"-Remove this unused "adminInfo" private field.(†¨İH»?RMAJORZ
+CODE_SMELL
+Zsquid:S1068"-Remove this unused "usersInfo" private field.(ÀÌ¹ŒH¼?RMAJORZ
+CODE_SMELL

@@ -1,0 +1,13 @@
+package com.capgemini.busshedulingspringboot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BusshedulingspringbootApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BusshedulingspringbootApplication.class, args);
+	}
+}
+	

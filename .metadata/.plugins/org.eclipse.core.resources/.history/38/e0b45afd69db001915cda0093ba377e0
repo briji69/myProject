@@ -1,0 +1,12 @@
+package com.capgemini.busscheduling.service;
+
+import com.capgemini.busscheduling.beans.Feedback;
+import com.capgemini.busscheduling.beans.Login;
+import com.capgemini.busscheduling.beans.Ticket;
+
+public interface CustomerServ {
+	boolean deleteUser(int id);
+	Login updateCheckCustomer(int id);
+	boolean addFeedback(Feedback feedback);
+	
+}

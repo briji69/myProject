@@ -1,0 +1,11 @@
+package com.capgemini.busscheduling.dao;
+
+import com.capgemini.busscheduling.beans.Feedback;
+import com.capgemini.busscheduling.beans.Login;
+
+public interface CustomerDao {
+
+	boolean deleteUser(int userId);
+	Login updateCheckCustomer(int id);
+	boolean addFeedback(Feedback feedback);
+}

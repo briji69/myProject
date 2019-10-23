@@ -1,0 +1,154 @@
+package com.capgemini.busscheduling.dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+import javax.persistence.Query;
+
+import com.capgemini.busscheduling.dto.Feedback;
+import com.capgemini.busscheduling.dto.Login;
+
+public class AdminDaoImpl implements AdminDao{
+
+
+
+	public boolean loginCheck(int ownerId) {
+
+		EntityManagerFactory entityManagerFactory=Persistence.createEntityManagerFactory("BusSchedulingPersistence");
+		EntityManager entityManager=entityManagerFactory.createEntityManager();
+
+		Login login=entityManager.find(Login.class, ownerId);
+		if(login!=null) {
+			return true;
+		} else {
+			return false;
+		}
+	}//end of loginCheck
+
+	public boolean addLogin(Login login) {
+		EntityManagerFactory entityManagerFactory=Persistence.createEntityManagerFactory("BusSchedulingPersistence");
+		EntityManager entityManager=entityManagerFactory.createEntityManager();
+		EntityTransaction transaction=entityManager.getTransaction();
+
+		transaction.begin();
+		try {
+			entityManager.persist(login);
+			transaction.commit();
+			entityManager.close();
+			return true;
+		}catch (Exception e) {
+			entityManager.close();
+			e.printStackTrace();
+		}
+		return false;
+
+
+
+	}//end of addBusOwner
+
+	public boolean deleteOwner(int ownerId) {
+
+		EntityManagerFactory entityManagerFactory=Persistence.createEntityManagerFactory("BusSchedulingPersistence");
+		EntityManager entityManager=entityManagerFactory.createEntityManager();
+		EntityTransaction transaction=entityManager.getTransaction();
+		transaction.begin();
+		Login login=entityManager.find(Login.class, ownerId);
+		try {
+			if(login.getType().equals("owner")) {
+			entityManager.remove(login);
+			transaction.commit();
+			entityManager.close();
+			return true;
+			}
+			
+		} catch (Exception e) {
+			entityManager.close();
+			e.printStackTrace();
+		}
+		return false;
+	}//end of deleteOwner
+	
+	
+
+	
+
+	public void updateLogin(Login owner) {
+		EntityManagerFactory entityManagerFactory=Persistence.createEntityManagerFactory("BusSchedulingPersistence");
+		EntityManager entityManager=entityManagerFactory.createEntityManager();
+
+		EntityTransaction transaction=entityManager.getTransaction();
+
+		transaction.begin();
+
+		Login ownerPresent=entityManager.find(Login.class, owner.getId());
+		try {
+
+			ownerPresent.setContact(owner.getContact());
+			ownerPresent.setEmail(owner.getEmail());
+			ownerPresent.setId(owner.getId());
+			ownerPresent.setName(owner.getName());
+			ownerPresent.setPassword(owner.getPassword());
+			ownerPresent.setType(owner.getType());
+
+			transaction.commit();
+
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+		entityManager.close();
+
+
+	}//end of updateOwner
+
+	public List<Login> viewOwner() {
+		EntityManagerFactory entityManagerFactory=Persistence.createEntityManagerFactory("BusSchedulingPersistence");
+		EntityManager entityManager=entityManagerFactory.createEntityManager();
+
+		String viewDetails="from Login where type=:type";
+		Query query=entityManager.createQuery(viewDetails);
+		query.setParameter("type", "owner");
+		List<Login> ownerDetails=query.getResultList();
+		return ownerDetails;
+	}//end of viewOwner
+
+	public List<Login> viewCustomer() {
+		EntityManagerFactory entityManagerFactory=Persistence.createEntityManagerFactory("BusSchedulingPersistence");
+		EntityManager entityManager=entityManagerFactory.createEntityManager();
+
+		String viewDetails="from Login where type=:type";
+		Query query=entityManager.createQuery(viewDetails);
+		query.setParameter("type", "user");
+		List<Login> customerDetails=query.getResultList();
+		return customerDetails;
+	}//end of viewCustomer
+
+	public List<Feedback> viewFeedback() {
+		EntityManagerFactory entityManagerFactory=Persistence.createEntityManagerFactory("BusSchedulingPersistence");
+		EntityManager entityManager=entityManagerFactory.createEntityManager();
+
+		String viewDetails="from Feedback";
+		Query query=entityManager.createQuery(viewDetails);
+		List<Feedback> feedbackDetails=query.getResultList();
+		return feedbackDetails;
+	}//end of viewFeedback
+
+	public boolean ownerCheck(int ownerId) {
+		EntityManagerFactory entityManagerFactory=Persistence.createEntityManagerFactory("BusSchedulingPersistence");
+		EntityManager entityManager=entityManagerFactory.createEntityManager();
+
+		Login login=entityManager.find(Login.class, ownerId);
+		if(login!=null && login.getType().equals("owner")) {
+			return true;
+		} else {
+			return false;
+		}
+	}//end of ownerCheck
+
+
+	
+
+
+}//end of class

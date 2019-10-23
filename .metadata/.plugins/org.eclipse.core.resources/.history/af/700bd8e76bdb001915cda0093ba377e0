@@ -1,0 +1,45 @@
+package com.capgemini.busscheduling.utility;
+
+import java.util.List;
+
+import com.capgemini.busscheduling.beans.Feedback;
+
+
+public class feedbackResponse {
+
+	private int statusCode;
+	private String message;
+	private String description;
+	
+	
+	
+	private List<Feedback> feedbackList;
+	
+	
+	public List<Feedback> getfeedbackList() {
+		return feedbackList;
+	}
+	public void setfeedbackList(List<Feedback> feedbackList) {
+		this.feedbackList = feedbackList;
+	}
+	public int getStatusCode() {
+		return statusCode;
+	}
+	public void setStatusCode(int statusCode) {
+		this.statusCode = statusCode;
+	}
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
+	
+}

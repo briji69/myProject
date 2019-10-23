@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\Anita\Desktop\briji final\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+123596418.index
+3078899169.index
+1445376078.index
+3146037572.index
+3706757818.index
+3195805671.index
+2747344624.index

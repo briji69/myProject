@@ -1,0 +1,28 @@
+package com.capgemini.busscheduling.test;
+
+
+import org.junit.jupiter.api.Test;
+
+import com.capgemini.busscheduling.dao.UserDAOImplementation;
+
+import junit.framework.TestCase;
+
+public class TestCollections extends TestCase  {
+	
+	@Test
+	public void testAddFail() {
+	UserDAOImplementation userDAOImplementation = new UserDAOImplementation();
+		
+		boolean result = userDAOImplementation.loginUser(101, "pasword");
+		assertEquals(false, result);
+	}
+	
+	@Test
+	public void testAddPass() {
+		UserDAOImplementation userDAOImplementation = new UserDAOImplementation();
+			
+			boolean result = userDAOImplementation.loginUser(101, "soham");
+			assertEquals(true, result);
+		}
+	
+}

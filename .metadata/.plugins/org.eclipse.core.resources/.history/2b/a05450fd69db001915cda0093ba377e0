@@ -1,0 +1,78 @@
+package com.capgemini.busscheduling.dao;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+import org.springframework.stereotype.Repository;
+
+import com.capgemini.busscheduling.beans.Feedback;
+import com.capgemini.busscheduling.beans.Login;
+
+@Repository
+public class CustomerDaoImpl implements CustomerDao{
+
+	@Override
+	public boolean deleteUser(int userId) {
+		EntityManagerFactory entityManagerFactory=Persistence.createEntityManagerFactory("BusSchedulingPersistence");
+		EntityManager entityManager=entityManagerFactory.createEntityManager();
+		EntityTransaction transaction=entityManager.getTransaction();
+		transaction.begin();
+		Login login=entityManager.find(Login.class, userId);
+		try {
+			if(login.getType().equals("user")) {
+			entityManager.remove(login);
+			transaction.commit();
+			entityManager.close();
+			return true;
+			}
+			
+		} catch (Exception e) {
+			entityManager.close();
+			e.printStackTrace();
+		}
+		return false;
+	}//end of deleteUser
+
+
+	@Override
+	public Login updateCheckCustomer(int id) {
+		EntityManagerFactory entityManagerFactory=Persistence.createEntityManagerFactory("BusSchedulingPersistence");
+		EntityManager entityManager=entityManagerFactory.createEntityManager();
+		EntityTransaction transaction=entityManager.getTransaction();
+		transaction.begin();
+		try {
+			Login exists=entityManager.find(Login.class, id);
+			if(exists!=null && exists.getType().equals("user")) {
+				return exists;
+			}
+			
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		entityManager.close();
+		return null;
+	}//end of updateCheckUser
+
+
+	@Override
+	public boolean addFeedback(Feedback feedback) {
+		EntityManagerFactory entityManagerFactory=Persistence.createEntityManagerFactory("BusSchedulingPersistence");
+		EntityManager entityManager=entityManagerFactory.createEntityManager();
+		EntityTransaction transaction=entityManager.getTransaction();
+		transaction.begin();
+	
+		try {
+				entityManager.persist(feedback);
+				transaction.commit();
+				return true;
+			
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		entityManager.close();
+		return false;
+	}//end of addFeedback
+
+}

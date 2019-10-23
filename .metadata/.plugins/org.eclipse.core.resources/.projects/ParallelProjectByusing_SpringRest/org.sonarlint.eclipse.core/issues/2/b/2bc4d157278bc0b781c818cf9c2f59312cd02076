@@ -1,0 +1,14 @@
+
+xsquid:S4684h"@Replace this persistent entity with a simple POJO or DTO object.(Ê±¸›üÿÿÿÿHßFRCRITICALZVULNERABILITY
+|squid:S1192*"GDefine a constant instead of duplicating this literal "Failed" 5 times.(Æ¯ÆùÿÿÿÿHÙFRCRITICALZ
+CODE_SMELL
+squid:UselessImportCheck"SRemove this unused import 'com.capgemini.busschedulingspringrest.dao.AdminDAOImpl'.(ê´‰ÆHÛFRMINORZ
+CODE_SMELL
+xsquid:S4684 "@Replace this persistent entity with a simple POJO or DTO object.(¹¤ş´şÿÿÿÿHİFRCRITICALZVULNERABILITY
+xsquid:S46843"@Replace this persistent entity with a simple POJO or DTO object.(¿£ÎúıÿÿÿÿHŞFRCRITICALZVULNERABILITY
+’squid:UselessImportCheck"SRemove this unused import 'com.capgemini.busschedulingspringrest.dao.OwnerDAOImpl'.(ÊñÿÇûÿÿÿÿHÚFRMINORZ
+CODE_SMELL
+squid:UselessImportCheck"VRemove this unused import 'com.capgemini.busschedulingspringrest.dao.CustomerDAOImpl'.(®í‚ÕHÜFRMINORZ
+CODE_SMELL
+xsquid:S1192%"HDefine a constant instead of duplicating this literal "Success" 5 times.(ãú³ÏHØFRCRITICALZ
+CODE_SMELL

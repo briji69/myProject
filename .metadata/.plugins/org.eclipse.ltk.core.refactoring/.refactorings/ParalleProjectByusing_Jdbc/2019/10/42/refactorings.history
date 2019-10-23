@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;ParalleProjectByusing_Jdbc&apos;&#x0D;&#x0A;- Original project: &apos;ParalleProjectByusing_Jdbc&apos;&#x0D;&#x0A;- Original element: &apos;ParalleProjectByusing_Jdbc/src/com.capgemini.busbookingsystem.app&apos;" description="Delete element" element1="/src&lt;com.capgemini.busbookingsystem.app" element2="/src&lt;com.capgemini.busbookingsystem" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1571476526030" subPackages="false" version="1.0"/>
+</session>

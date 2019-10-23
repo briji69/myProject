@@ -1,0 +1,32 @@
+package com.capgemini.busscheduling.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capgemini.busscheduling.beans.Feedback;
+import com.capgemini.busscheduling.beans.Login;
+import com.capgemini.busscheduling.dao.CustomerDao;
+import com.capgemini.busscheduling.dao.CustomerDaoImpl;
+
+@Service
+public class CustomerServImpl implements CustomerServ{
+
+	@Autowired
+	CustomerDao customerDao;
+	
+	@Override
+	public boolean deleteUser(int userId) {
+		return customerDao.deleteUser(userId);
+	}
+
+	@Override
+	public Login updateCheckCustomer(int id) {
+		return customerDao.updateCheckCustomer(id);
+	}
+
+	@Override
+	public boolean addFeedback(Feedback feedback) {
+		return customerDao.addFeedback(feedback);
+	}
+
+}

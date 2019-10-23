@@ -1,0 +1,16 @@
+
+`squid:S1481V".Remove this unused "feedbacks" local variable.(öÿª‹üÿÿÿÿHçSRMINORZ
+CODE_SMELL
+Xsquid:S1148_"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHèSRMINORZVULNERABILITY
+xsquid:UselessImportCheck"9Remove this unused import 'javax.persistence.Embeddable'.(‡¡Ý¬ûÿÿÿÿHéSRMINORZ
+CODE_SMELL
+Xsquid:S1148P"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHêSRMINORZVULNERABILITY
+Xsquid:S1168a"+Return an empty collection instead of null.(¥¹ïHëSRMAJORZ
+CODE_SMELL
+Xsquid:S11480"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHìSRMINORZVULNERABILITY
+jsquid:S1854["=Remove this useless assignment to local variable "feedbacks".(ÞÄ¤¸HíSRMAJORZ
+CODE_SMELL
+ksquid:S1155A">Use isEmpty() to check whether the collection is empty or not.(ÑÌïHîSRMINORZ
+CODE_SMELL
+psquid:S1155)">Use isEmpty() to check whether the collection is empty or not.(ÈšìµÿÿÿÿÿHïSRMINORZ
+CODE_SMELL

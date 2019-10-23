@@ -1,0 +1,53 @@
+
+nsquid:S3516”"9Refactor this method to not always return the same value.(»´éšûÿÿÿÿHÌ?RBLOCKERZ
+CODE_SMELL
+squid:S00117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ç‡HÍ?RMINORZ
+CODE_SMELL
+~squid:S00117w"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÅ2HÎ?RMINORZ
+CODE_SMELL
+…squid:S00117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñæ¯şÿÿÿÿHÏ?RMINORZ
+CODE_SMELL
+…squid:S00117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»´éšûÿÿÿÿHĞ?RMINORZ
+CODE_SMELL
+squid:UselessImportCheck"VRemove this unused import 'com.capgemini.busbookingsystem.exceptions.GetBusException'.(­èæœHÑ?RMINORZ
+CODE_SMELL
+›squid:UselessImportCheck"\Remove this unused import 'com.capgemini.busbookingsystem.exceptions.CancelTicketException'.(¨ÛÉóıÿÿÿÿHÒ?RMINORZ
+CODE_SMELL
+ squid:UselessImportCheck"aRemove this unused import 'com.capgemini.busbookingsystem.exceptions.CheckAvailabilityException'.(ø§ÊÜûÿÿÿÿHÓ?RMINORZ
+CODE_SMELL
+“squid:UselessImportCheck"YRemove this unused import 'com.capgemini.busbookingsystem.exceptions.CreateBusException'.(îñ”„HÔ?RMINORZ
+CODE_SMELL
+lsquid:UselessImportCheck"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿHÕ?RMINORZ
+CODE_SMELL
+jsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒHÖ?RMINORZ
+CODE_SMELL
+“squid:UselessImportCheck"YRemove this unused import 'com.capgemini.busbookingsystem.exceptions.DeleteBusException'.(åÊöÏH×?RMINORZ
+CODE_SMELL
+squid:UselessImportCheck"^Remove this unused import 'com.capgemini.busbookingsystem.exceptions.ShowAllBusInfoException'.(’ñß–úÿÿÿÿHØ?RMINORZ
+CODE_SMELL
+“squid:UselessImportCheck"YRemove this unused import 'com.capgemini.busbookingsystem.exceptions.UpdateBusException'.(Ê­˜ßHÙ?RMINORZ
+CODE_SMELL
+”squid:UselessImportCheck"ZRemove this unused import 'com.capgemini.busbookingsystem.exceptions.AdminloginException'.(‡ÅÉ¼HÚ?RMINORZ
+CODE_SMELL
+”squid:UselessImportCheck"ZRemove this unused import 'com.capgemini.busbookingsystem.exceptions.BookTicketException'.(ÆÎ§ºHÛ?RMINORZ
+CODE_SMELL
+squid:UselessImportCheck"dRemove this unused import 'com.capgemini.busbookingsystem.exceptions.ShowUserBookedTicketException'.(ö¾¨ÎHÜ?RMINORZ
+CODE_SMELL
+\squid:S2440 "*Remove this instantiation of "CommonInfo".(óƒ•ÀùÿÿÿÿHİ?RMAJORZ
+CODE_SMELL
+[squid:S2440!"/Remove this instantiation of "CommonLoginInfo".(•ó´HŞ?RMAJORZ
+CODE_SMELL
+bsquid:S2209""5Change this instance-reference to a static reference.(†¨İHß?RMAJORZ
+CODE_SMELL
+bsquid:S2209#"5Change this instance-reference to a static reference.(ÀÌ¹ŒHà?RMAJORZ
+CODE_SMELL
+gsquid:S2209$"5Change this instance-reference to a static reference.(¨±ëÒûÿÿÿÿHá?RMAJORZ
+CODE_SMELL
+bsquid:S2209%"5Change this instance-reference to a static reference.(ôÅ«¨Hâ?RMAJORZ
+CODE_SMELL
+Vsquid:S1125*")Remove the literal "false" boolean value.(¨ÔŠ•Hã?RMINORZ
+CODE_SMELL
+Zsquid:S1068""-Remove this unused "adminInfo" private field.(†¨İHä?RMAJORZ
+CODE_SMELL
+\squid:S1068%"/Remove this unused "bookingInfo" private field.(ôÅ«¨Hå?RMAJORZ
+CODE_SMELL

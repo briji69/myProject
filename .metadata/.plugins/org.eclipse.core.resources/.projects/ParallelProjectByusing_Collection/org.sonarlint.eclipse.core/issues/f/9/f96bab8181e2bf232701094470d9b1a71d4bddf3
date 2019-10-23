@@ -1,0 +1,19 @@
+
+€squid:UselessImportCheck	"FRemove this unused import 'com.capgemini.busbookingsystem.beans.User'.(ÎşıÉHÅPRMINORZ
+CODE_SMELL
+¥squid:S1319"sThe type of the "bookingInfo" object should be an interface such as "Map" rather than the implementation "HashMap".(÷—ë¬ùÿÿÿÿHÆPRMINORZ
+CODE_SMELL
+squid:UselessImportCheck"GRemove this unused import 'com.capgemini.busbookingsystem.beans.Owner'.(±¾‘«HÇPRMINORZ
+CODE_SMELL
+]squid:S1444"-Make this "public static busInfo" field final(ØéÌÜHÈPRMINORZVULNERABILITY
+Jsquid:S1118"Hide this public constructor.(Æ§¾ÙHÉPRMAJORZ
+CODE_SMELL
+Msquid:S2386"Make this member "protected".(ØéÌÜHÊPRMINORZVULNERABILITY
+squid:UselessImportCheck"GRemove this unused import 'com.capgemini.busbookingsystem.beans.Admin'.( ‡°êHËPRMINORZ
+CODE_SMELL
+fsquid:S1444"1Make this "public static bookingInfo" field final(÷—ë¬ùÿÿÿÿHÌPRMINORZVULNERABILITY
+œsquid:S1319"oThe type of the "busInfo" object should be an interface such as "Map" rather than the implementation "HashMap".(ØéÌÜHÍPRMINORZ
+CODE_SMELL
+š"squid:ClassVariableVisibilityCheck"SMake busInfo a static final constant or non-public and provide accessors if needed.(ØéÌÜHÎPRMINORZVULNERABILITY
+Rsquid:S2386"Make this member "protected".(÷—ë¬ùÿÿÿÿHÏPRMINORZVULNERABILITY
+£"squid:ClassVariableVisibilityCheck"WMake bookingInfo a static final constant or non-public and provide accessors if needed.(÷—ë¬ùÿÿÿÿHĞPRMINORZVULNERABILITY

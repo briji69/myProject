@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\Anita\Desktop\briji final\busschedulingcollections"/>
+		<item value="C:\Users\Anita\Desktop\briji final\BusScheduling_Hibernate"/>
+		<item value="C:\Users\Anita\Desktop\briji final\BusBookingSystem_JDBC"/>
+		<item value="C:\Users\Anita\Desktop\briji final\BBS_Collection"/>
+	</list>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="534"/>
+		<item key="DIALOG_Y_ORIGIN" value="209"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

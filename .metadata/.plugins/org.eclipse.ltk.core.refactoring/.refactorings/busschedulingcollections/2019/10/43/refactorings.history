@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.capgemini.busscheduling.test&apos; to &apos;ParallelProjectByusing_Collection/src&apos;&#x0D;&#x0A;- Original project: &apos;busschedulingcollections&apos;&#x0D;&#x0A;- Destination element: &apos;ParallelProjectByusing_Collection/src&apos;&#x0D;&#x0A;- Original element: &apos;busschedulingcollections/src/com.capgemini.busscheduling.test&apos;" description="Copy package" destination="=ParallelProjectByusing_Collection/src" element1="/src&lt;com.capgemini.busscheduling.test" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1571680569074" version="1.0"/>
+</session>

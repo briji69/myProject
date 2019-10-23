@@ -1,0 +1,65 @@
+package com.capgemini.busscheduling.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capgemini.busscheduling.beans.Feedback;
+import com.capgemini.busscheduling.beans.Login;
+import com.capgemini.busscheduling.dao.AdminDao;
+
+@Service
+public class AdminServImpl implements AdminServ{
+
+	@Autowired
+	AdminDao adminDao;
+
+	@Override
+	public boolean addLogin(Login user) {
+		return adminDao.addLogin(user);
+	}
+
+	@Override
+	public Login login(int id, String password) {
+		return adminDao.login(id, password);
+	}
+
+	@Override
+	public boolean deleteOwner(int id) {
+		return adminDao.deleteOwner(id);
+	}
+
+	@Override
+	public Login updateCheckOwner(int id) {
+		return adminDao.updateCheckOwner(id);
+	}
+
+	@Override
+	public boolean updateLogin(Login ownerLogin) {
+		return adminDao.updateLogin(ownerLogin);
+	}
+
+	@Override
+	public List<Login> displayOwners() {
+		return adminDao.displayOwners();
+	}
+
+	@Override
+	public List<Login> displayCustomers() {
+		return adminDao.displayCustomers();
+	}
+
+	@Override
+	public List<Feedback> displayFeedbacks() {
+		return adminDao.displayFeedbacks();
+	}
+
+	@Override
+	public Login searchLogin(int id) {
+		return adminDao.searchLogin(id);
+	}
+	
+	
+	
+}

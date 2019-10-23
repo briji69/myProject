@@ -1,0 +1,53 @@
+package com.capgemini.busscheduling.utility;
+
+import java.util.List;
+
+import javax.xml.bind.annotation.XmlElement;
+
+import com.capgemini.busscheduling.beans.Login;
+
+
+public class loginResponse {
+
+	private int statusCode;
+	private String message;
+	private String description;
+	
+	
+	private Login login;
+	
+	private List<Login> loginList;
+	
+	public Login getlogin() {
+		return login;
+	}
+	public void setlogin(Login login) {
+		this.login = login;
+	}
+	public List<Login> getloginList() {
+		return loginList;
+	}
+	public void setloginList(List<Login> loginList) {
+		this.loginList = loginList;
+	}
+	public int getStatusCode() {
+		return statusCode;
+	}
+	public void setStatusCode(int statusCode) {
+		this.statusCode = statusCode;
+	}
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
+	
+}

@@ -1,0 +1,10 @@
+127.0.0.1 - - [19/Sep/2019:18:58:13 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [19/Sep/2019:18:58:18 +0530] "GET /ParallelProjectByusing_SpringMVC/WEB-INF/classes/com/capgemini/busscheduling/controller/SignInController.java HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [19/Sep/2019:18:58:49 +0530] "GET /ParallelProjectByusing_SpringMVC/ HTTP/1.1" 200 149
+0:0:0:0:0:0:0:1 - - [19/Sep/2019:18:59:24 +0530] "GET /ParallelProjectByusing_SpringMVC/login HTTP/1.1" 200 597
+0:0:0:0:0:0:0:1 - - [19/Sep/2019:18:59:46 +0530] "POST /ParallelProjectByusing_SpringMVC/loginPage HTTP/1.1" 200 698
+0:0:0:0:0:0:0:1 - - [19/Sep/2019:18:59:49 +0530] "GET /ParallelProjectByusing_SpringMVC/logout HTTP/1.1" 200 626
+127.0.0.1 - - [19/Sep/2019:19:23:57 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [19/Sep/2019:19:24:34 +0530] "GET /ParallelProjectByusing_SpringRest/WEB-INF/classes/com/capgemini/busscheduling/controller/SignInRestController.java HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [19/Sep/2019:19:24:45 +0530] "GET /ParallelProjectByusing_SpringRest/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [19/Sep/2019:19:27:13 +0530] "GET /ParallelProjectByusing_SpringRest/getAllUsers HTTP/1.1" 200 239

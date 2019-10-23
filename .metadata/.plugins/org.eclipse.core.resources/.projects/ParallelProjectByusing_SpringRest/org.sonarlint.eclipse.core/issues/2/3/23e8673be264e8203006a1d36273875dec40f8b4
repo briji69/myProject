@@ -1,0 +1,10 @@
+
+|squid:S1192%"GDefine a constant instead of duplicating this literal "Failed" 5 times.(Æ¯ÆùÿÿÿÿHÁSRCRITICALZ
+CODE_SMELL
+xsquid:S4684"@Replace this persistent entity with a simple POJO or DTO object.(‡“†ßüÿÿÿÿHÂSRCRITICALZVULNERABILITY
+xsquid:S1192 "HDefine a constant instead of duplicating this literal "Success" 5 times.(ãú³ÏHÃSRCRITICALZ
+CODE_SMELL
+“squid:S1192A"^Define a constant instead of duplicating this literal "Customer Deleted Successfully" 3 times.(èÍê»ûÿÿÿÿHÄSRCRITICALZ
+CODE_SMELL
+†squid:S11926"QDefine a constant instead of duplicating this literal "Unable to Delete" 4 times.(£¦˜öûÿÿÿÿHÅSRCRITICALZ
+CODE_SMELL

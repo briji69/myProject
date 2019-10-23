@@ -1,0 +1,42 @@
+
+ysquid:S4684³"@Replace this persistent entity with a simple POJO or DTO object.(¢öû¼şÿÿÿÿH¦SRCRITICALZVULNERABILITY
+}squid:S1192ş"GDefine a constant instead of duplicating this literal "ticket" 3 times.(ËÀ ÈüÿÿÿÿH§SRCRITICALZ
+CODE_SMELL
+ysquid:S4684æ"@Replace this persistent entity with a simple POJO or DTO object.(ˆ—ŸŠøÿÿÿÿH¨SRCRITICALZVULNERABILITY
+„squid:S1192ñ"NDefine a constant instead of duplicating this literal "searchBusForm" 3 times.(—ÁÒğúÿÿÿÿH©SRCRITICALZ
+CODE_SMELL
+squid:S1192"NDefine a constant instead of duplicating this literal "updateBusForm" 3 times.(Ô œšHªSRCRITICALZ
+CODE_SMELL
+lsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(Ş–š¥H«SRMINORZ
+CODE_SMELL
+tsquid:S4684"@Replace this persistent entity with a simple POJO or DTO object.(”²¶H¬SRCRITICALZVULNERABILITY
+‰squid:S1192C"TDefine a constant instead of duplicating this literal "please login first" 20 times.(Ò·‡òıÿÿÿÿH­SRCRITICALZ
+CODE_SMELL
+ˆsquid:S1192É"RDefine a constant instead of duplicating this literal "writeFeedbackForm" 3 times.(ÓüÎúÿÿÿÿH®SRCRITICALZ
+CODE_SMELL
+³squid:S1845×"‚Rename method "getWriteFeedbackForm" to prevent any misunderstanding/clash with method "getwriteFeedbackForm" defined on line 195.(—ÁæâH¯SRBLOCKERZ
+CODE_SMELL
+tsquid:S4684û"@Replace this persistent entity with a simple POJO or DTO object.(ÜûéäH°SRCRITICALZVULNERABILITY
+|squid:S1192—"KDefine a constant instead of duplicating this literal "addBusForm" 3 times.(çı‰©H±SRCRITICALZ
+CODE_SMELL
+…squid:S1192µ"ODefine a constant instead of duplicating this literal "bookTicketForm" 6 times.(ëÖ‹²úÿÿÿÿH²SRCRITICALZ
+CODE_SMELL
+ysquid:S4684²"@Replace this persistent entity with a simple POJO or DTO object.(úï£ÃşÿÿÿÿH³SRCRITICALZVULNERABILITY
+}squid:S1192F"MDefine a constant instead of duplicating this literal "registerForm" 5 times.(²œãH´SRCRITICALZ
+CODE_SMELL
+ƒsquid:S1192x"SDefine a constant instead of duplicating this literal "updateCustomerForm" 3 times.(’å£¤HµSRCRITICALZ
+CODE_SMELL
+€squid:S1192;"KDefine a constant instead of duplicating this literal "loginForm" 22 times.(Š¬³šùÿÿÿÿH¶SRCRITICALZ
+CODE_SMELL
+ysquid:S4684Ü"@Replace this persistent entity with a simple POJO or DTO object.(º§æ¬ùÿÿÿÿH·SRCRITICALZVULNERABILITY
+†squid:S1192ç"PDefine a constant instead of duplicating this literal "printTicketForm" 3 times.(®Å‘ÇúÿÿÿÿH¸SRCRITICALZ
+CODE_SMELL
+ksquid:S1155ı">Use isEmpty() to check whether the collection is empty or not.(Õ‹¼EH¹SRMINORZ
+CODE_SMELL
+„squid:S1192¡"NDefine a constant instead of duplicating this literal "removeBusForm" 3 times.(Í†îàşÿÿÿÿHºSRCRITICALZ
+CODE_SMELL
+squid:S1192«"PDefine a constant instead of duplicating this literal "setBusAvailForm" 3 times.(·¤µøH»SRCRITICALZ
+CODE_SMELL
+‚squid:S1192¿"QDefine a constant instead of duplicating this literal "cancelTicketForm" 3 times.(˜Äë•H¼SRCRITICALZ
+CODE_SMELL
+tsquid:S4684ñ"@Replace this persistent entity with a simple POJO or DTO object.(ŠØ€àH½SRCRITICALZVULNERABILITY

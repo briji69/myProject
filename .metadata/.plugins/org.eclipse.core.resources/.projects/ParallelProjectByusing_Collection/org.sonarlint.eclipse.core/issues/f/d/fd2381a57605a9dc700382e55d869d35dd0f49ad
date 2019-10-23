@@ -1,0 +1,24 @@
+
+Msquid:S2386
+"Make this member "protected".(ìÔîýH¿PRMINORZVULNERABILITY
+‚squid:S1192"FDefine a constant instead of duplicating this literal "briji" 3 times.(¿Ê·ëüÿÿÿÿ8¦ß³íÞ-HºPRCRITICALZ
+CODE_SMELL
+¡"squid:ClassVariableVisibilityCheck"UMake usersInfo a static final constant or non-public and provide accessors if needed.(¸³ÞýþÿÿÿÿH½PRMINORZVULNERABILITY
+œ"squid:ClassVariableVisibilityCheck"UMake ownerInfo a static final constant or non-public and provide accessors if needed.(úöôÀH¼PRMINORZVULNERABILITY
+dsquid:S1444"/Make this "public static usersInfo" field final(¸³ÞýþÿÿÿÿH·PRMINORZVULNERABILITY
+žsquid:S1319"qThe type of the "ownerInfo" object should be an interface such as "Map" rather than the implementation "HashMap".(úöôÀH»PRMINORZ
+CODE_SMELL
+Rsquid:S2386"Make this member "protected".(¸³ÞýþÿÿÿÿHÀPRMINORZVULNERABILITY
+_squid:S1444"/Make this "public static ownerInfo" field final(úöôÀHÃPRMINORZVULNERABILITY
+£squid:S1319"qThe type of the "usersInfo" object should be an interface such as "Map" rather than the implementation "HashMap".(¸³ÞýþÿÿÿÿH¾PRMINORZ
+CODE_SMELL
+Msquid:S2386"Make this member "protected".(úöôÀHÁPRMINORZVULNERABILITY
+Osquid:S1118"Hide this public constructor.(³£×¡üÿÿÿÿHÂPRMAJORZ
+CODE_SMELL
+_squid:S1444
+"/Make this "public static adminInfo" field final(ìÔîýH¸PRMINORZVULNERABILITY
+œ"squid:ClassVariableVisibilityCheck
+"UMake adminInfo a static final constant or non-public and provide accessors if needed.(ìÔîýH¹PRMINORZVULNERABILITY
+žsquid:S1319
+"qThe type of the "adminInfo" object should be an interface such as "Map" rather than the implementation "HashMap".(ìÔîýHÄPRMINORZ
+CODE_SMELL
